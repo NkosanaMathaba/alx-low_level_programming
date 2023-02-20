@@ -9,13 +9,14 @@
 int main(void)
 {
 	int n;
-	int com = ',';
 
-	for (n = 0; n < 10; n++)
+	for (n = 0; n <= 9; n++)
 	{
 		putchar((n % 10) + '0');
-		putchar(com);
-		putchar('\t');
+		if (n == 9)
+			continue;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
