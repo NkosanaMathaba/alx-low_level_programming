@@ -6,9 +6,10 @@
  * Retrun: (0) otherwise
  */
 
-int _islower(int c)/* char - */
+int _islower(int c)/* @c: parameter being checked */
 {
-
-	_putchar(c);
-	return (0);
+	if (c >= 'a' && c <= 'z')
+		return(1);
+	else
+		return(0);
 }
