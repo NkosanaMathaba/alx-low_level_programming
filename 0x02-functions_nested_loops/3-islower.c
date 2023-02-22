@@ -2,14 +2,17 @@
 /**
  * _islower - check for lowercase c
  *
+ * @c: parameter being checked
+ *
  * Return: (1) if c is lowercase
- * Retrun: (0) otherwise
+ * (0) otherwise
+ *
  */
 
-int _islower(int c)/* @c: parameter being checked */
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-		return(1);
+		return (1);
 	else
-		return(0);
+		return (0);
 }
