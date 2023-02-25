@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - print forward slash
+ * @n: integer
  */
 
 void print_diagonal(int n)
