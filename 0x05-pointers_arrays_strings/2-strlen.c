@@ -5,7 +5,7 @@
  *
  * @s: character being checked
  *
- * return: (0)
+ * Return: Always (0)
  */
 
 int _strlen(char *s)
