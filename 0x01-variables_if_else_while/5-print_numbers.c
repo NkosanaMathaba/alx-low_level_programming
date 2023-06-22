@@ -2,8 +2,6 @@
 
 /**
  * main - prints all single digits
- * 
- * @num: numbers to be printed
  *
  * Return: Always (0) Success
  */
