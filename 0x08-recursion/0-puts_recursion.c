@@ -8,11 +8,11 @@
 
 void _puts_recursion(char *s)
 {
-	int count = 0;
-	while (s[count] != '\0')
+	if (*s != '\0')
 	{
-		printf("%c", s[count]);
-		count++;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	printf("\n");
+	else
+		_putchar('\n');
 }
